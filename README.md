@@ -55,6 +55,7 @@ kubectl get pods
  wait until you get "Started Jetty Server"
  
  after you see this line close the log mointor with ctl+c
+ 
  check service name with this command
  ```
  kubectl get svc

@@ -52,4 +52,18 @@ kubectl get pods
  ```
  kubectl logs -f <POD_NAME_FROM_PREVIOUS_STEP>
  ```
+ wait until you get "Started Jetty Server"
+ 
+ after you see this line close the log mointor with ctl+c
+ check service name with this command
+ ```
+ kubectl get svc
+ ```
+ copy the service name
+ 
+ open tunnel from minikube to your PC
+ 
+ ```
+ minikube service <SERVICE_NAME_FROM_PREVIOUS_STEP>
+ ```
  

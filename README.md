@@ -27,7 +27,6 @@ https://minikube.sigs.k8s.io/docs/start/
  docker save -o <save_file_locatio/filename.dockerfile> <image_name:tag>
  
  if you want to run the image as a container in docker run 
- 
+```
  docker run -p 8080:8080 <image_name:tag>
- 
- 
+```

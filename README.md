@@ -1,7 +1,7 @@
 # Petclinic
 
 # Prerequisite 
-# Linux machine with docker servie up and running and git command line tool 
+Linux machine with docker servie up and running and git command line tool 
 
 # how to install Docker service on ubuntu
 https://phoenixnap.com/kb/install-docker-on-ubuntu-20-04

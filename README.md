@@ -43,4 +43,13 @@ cd <"HELM_FOLDER_LOCATION">
 example: cd C:\Users\XYZ\Desktop\Home_challenge\helm\
 helm install petclinic
 ```
-
+# Monitor application state 
+ check the pod name with this command and copy the name
+```
+kubectl get pods
+```
+ check application state with this command 
+ ```
+ kubectl logs -f <POD_NAME_FROM_PREVIOUS_STEP>
+ ```
+ 

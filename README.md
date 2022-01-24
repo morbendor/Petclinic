@@ -2,6 +2,7 @@
 
 # Prerequisite 
 Linux machine with docker servie up and running and git command line tool 
+
 Minikube up and running  
 
  how to install Docker service on ubuntu

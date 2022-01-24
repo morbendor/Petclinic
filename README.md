@@ -15,22 +15,22 @@ https://linuxize.com/post/how-to-install-git-on-ubuntu-18-04/
 https://minikube.sigs.k8s.io/docs/start/
 
 
-# Create docker image 
+# How to Create docker image 
  ```
  git clone https://github.com/morbendor/Petclinic.git
  cd Petclinic 
  docker build -t <image_name:tag> .
  ```
- # save docker image 
+ # How to save docker image 
  in order to save the image as file run 
  ```
  docker save -o <save_file_locatio/filename.dockerfile> <image_name:tag>
  ```
- # run docker container  
+ # How to run docker container  
 ```
  docker run -p 8080:8080 <image_name:tag>
  or 
  docker-compose up -d 
 ```
 
-
+# How run image as a pod in minikube

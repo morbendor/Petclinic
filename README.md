@@ -28,4 +28,6 @@ https://minikube.sigs.k8s.io/docs/start/
  if you want to run the image as a container in docker run 
 ```
  docker run -p 8080:8080 <image_name:tag>
+ or 
+ docker-compose up -d 
 ```

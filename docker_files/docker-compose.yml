@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+    petclinic:
+        restart: always
+        image: my_app:1.0
+        container_name: my_app_mor
+        ports:
+          - 8080:8080

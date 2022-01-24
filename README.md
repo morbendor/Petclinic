@@ -12,6 +12,7 @@ https://linuxize.com/post/how-to-install-git-on-ubuntu-18-04/
 
  Minikube up and running  
  How to install minikube:
+ 
 https://minikube.sigs.k8s.io/docs/start/
 
 

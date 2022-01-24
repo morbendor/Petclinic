@@ -16,10 +16,9 @@ https://minikube.sigs.k8s.io/docs/start/
 
 
 # Create docker image 
- git clone https://github.com/morbendor/Petclinic.git
- 
- cd Petclinic 
  ```
+ git clone https://github.com/morbendor/Petclinic.git
+ cd Petclinic 
  docker build -t <image_name:tag> .
  ```
  in order to save the image as file run 

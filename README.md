@@ -21,13 +21,16 @@ https://minikube.sigs.k8s.io/docs/start/
  cd Petclinic 
  docker build -t <image_name:tag> .
  ```
+ # save docker image 
  in order to save the image as file run 
  ```
  docker save -o <save_file_locatio/filename.dockerfile> <image_name:tag>
  ```
- if you want to run the image as a container in docker run 
+ # run docker container  
 ```
  docker run -p 8080:8080 <image_name:tag>
  or 
  docker-compose up -d 
 ```
+
+

@@ -34,3 +34,11 @@ https://minikube.sigs.k8s.io/docs/start/
 ```
 
 # How run image as a pod in minikube
+```
+minikube image load <"YOUR_FILE_LOCATION">
+example: minikube image load "C:\Users\XYZ\Desktop\Home_challenge\image\petclinic.dockerfile"
+cd <"HELM_FOLDER_LOCATION">
+example: cd C:\Users\XYZ\Desktop\Home_challenge\helm\
+helm install petclinic
+```
+

@@ -3,19 +3,21 @@
 # Prerequisite 
 Linux machine with docker servie up and running and git command line tool 
 
-Minikube up and running  
+Minikube up and running 
 
- how to install Docker service on ubuntu
+helm installed 
+
+ how to install Docker service on ubuntu:
 https://phoenixnap.com/kb/install-docker-on-ubuntu-20-04
 
- how to install git command line tool 
+ how to install git command line tool: 
 https://linuxize.com/post/how-to-install-git-on-ubuntu-18-04/
-
-
 
  How to install minikube:
 https://minikube.sigs.k8s.io/docs/start/
 
+ How to install helm:
+https://helm.sh/docs/intro/install/
 
 # How to Create docker image 
  ```

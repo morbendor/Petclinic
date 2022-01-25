@@ -1,5 +1,4 @@
 FROM ubuntu:focal
-COPY resources  /
 
 RUN apt update \
 && DEBIAN_FRONTEND='noninteractive' apt install git -yq \

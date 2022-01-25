@@ -22,7 +22,7 @@ https://helm.sh/docs/intro/install/
 # How to Create docker image 
  ```
  git clone https://github.com/morbendor/Petclinic.git
- cd Petclinic 
+ cd Petclinic/docker_files 
  docker build -t <image_name:tag> .
  ```
  # How to save docker image 
